@@ -4,7 +4,7 @@ import MovieList from './MovieList'
 const AllMovies = () => {
 
     return(
-        <Container className="mx-2">
+        <Container className="mx-8">
              <Row>
             <Col xs={12}>
                 <MovieList category ="http://www.omdbapi.com/?apikey=3e720846&s=avengers" title="Avengers" />

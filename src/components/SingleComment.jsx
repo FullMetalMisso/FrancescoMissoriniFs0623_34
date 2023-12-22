@@ -27,7 +27,7 @@ const SingleComment = (props) => {
 
     return (
         <Col className="d-flex justify-content-between">
-            <p className='text-white'>Recensione: {props.commento.comment}</p>
+            <p className='textCommenti'>Recensione: {props.commento.comment}</p>
             <Button variant="danger" onClick={() => deleteComment(props.commento._id)}>
                 Delete
             </Button>

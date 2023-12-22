@@ -7,7 +7,7 @@ const CommentList = (props) => {
         <Row>
             {props.commenti.length === 0 ? (
                 <Col>
-                    <p className='text-white'>Non ci sono commenti</p>
+                    <p className='textCommenti'>Non ci sono commenti</p>
                 </Col>
             ) : (
                 props.commenti.map((commento) => (
